@@ -319,7 +319,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     sa.sa_handler = HandleLMNERM;
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = 0;
-    sigaction(LMNERM, &sa, NULL);
+    sigaction(SIGTERM, &sa, NULL);
     sigaction(SIGINT, &sa, NULL);
 
     // Reopen debug.log on SIGHUP

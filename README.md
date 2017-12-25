@@ -2,20 +2,19 @@
 
 LEMANUM
 ========
+Lemanum is decentralized cryptocurrency skunkhash(POW/POS)
 
-Website: coming soon<br />
+
+Join us on discord
 Discord channel : https://discord.gg/ZjnMzcK<br />
 -----
 
 
-Development Process
--------------------
+#DEVELOPMENT PROCESS:
+ 
+Website and Blockexplorer: coming soon<br />
 
-Loading
 
-WEBSITE AND BLOCKEXPLORER
 
-happy xmas 
-# source
-# source
-# source
+#HAPPY CHRISTMAS DAY 
+
