@@ -14,6 +14,7 @@ Discord channel : https://discord.gg/ZjnMzcK<br />
 blockexplorer:
 
 http://lemanum.lchain.cc
+
 https://altmix.org/coins/18-Lemanum
 
 
