@@ -10,12 +10,18 @@ Lemanum is decentralized cryptocurrency skunkhash(POW/POS)
 Join us on 
 Discord channel : https://discord.gg/ZjnMzcK<br />
 
+-----
+blockexplorer:
+
+http://lemanum.lchain.cc
+https://altmix.org/coins/18-Lemanum
+
+
 
 -----
-Website and Blockexplorer: coming soon<br />
+Website coming soon<br />
 -----
 
 
 
-#HAPPY CHRISTMAS DAY 
 
