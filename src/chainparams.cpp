@@ -105,16 +105,14 @@ public:
         genesis.nNonce   = 1350733;
 
 
-        LogPrintf("genesis.hashMerkleRoot=%s\n", genesis.hashMerkleRoot.ToString());
-        LogPrintf("hashGenesisBlock=%s\n", hashGenesisBlock.ToString());
+        //LogPrintf("genesis.hashMerkleRoot=%s\n", genesis.hashMerkleRoot.ToString());
+        //LogPrintf("hashGenesisBlock=%s\n", hashGenesisBlock.ToString());
 
        
 
- hashGenesisBlock = genesis.GetHash();
-
-
-assert(hashGenesisBlock == uint256("0x0000059d973811ff6a9c9d57fd43f3c9b48f6ee1439225af1fc4def9d932dd0b"));
-        assert(genesis.hashMerkleRoot == uint256("0x4043208adfc2c5ef453d2cbd51fe3af5a259bf00934343e04032a58d39d9976c"));
+           hashGenesisBlock = genesis.GetHash();
+           assert(hashGenesisBlock == uint256("0x0000059d973811ff6a9c9d57fd43f3c9b48f6ee1439225af1fc4def9d932dd0b"));
+           assert(genesis.hashMerkleRoot == uint256("0x4043208adfc2c5ef453d2cbd51fe3af5a259bf00934343e04032a58d39d9976c"));
 
         //MineGenesis(genesis);
 
