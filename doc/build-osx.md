@@ -10,8 +10,7 @@ Thomas Bernard.
 
 Lemanum authors:
 
-- Laszlo Hanyecz <solar@heliacal.net>
-- Douglas Huff <dhuff@jrbobdobbs.org>
+-coinzor
 
 ## Notes
 
@@ -50,8 +49,8 @@ Homebrew is an alternative to MacPorts. If you're using MacPorts, skip this sect
 
 ## Building Lemanum
 
-    git clone https://github.com/lemanumd/source lemanum
-    cd lemanum/src
+    git clone https://github.com/lemanumd/LMN lemanum
+    cd LMN/src
     make -f makefile.osx
 
 ## Useful commands
