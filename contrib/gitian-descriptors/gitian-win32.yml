@@ -43,7 +43,7 @@ script: |
   find -type f | xargs touch --date="$REFERENCE_DATETIME"
   #
   unzip lemanum.zip
-  cp -r lemanum §OUTDIR/src
+  cp -r lemanum $OUTDIR/src
   cp -r lemanum nsis
   cd lemanum
   cp $OUTDIR/src/doc/README_windows.txt $OUTDIR/readme.txt
@@ -63,9 +63,8 @@ script: |
   i586-mingw32msvc-strip lemanumd.exe
   mkdir $OUTDIR/daemon
   cp lemanumd.exe $OUTDIR/daemon
-  cd ..
   mv ../nsis .
-  cd nsis/src
+  cd ..
   mkdir ../release
   cp ../../release/* ../release/
   cp ../../src/*.exe .

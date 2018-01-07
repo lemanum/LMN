@@ -118,7 +118,18 @@ public:
 
         
        
-        vSeeds.push_back(CDNSSeedData("37.139.2.62", "37.139.2.62")); 
+        vSeeds.push_back(CDNSSeedData("37.139.2.62", "37.139.2.62"));
+        vSeeds.push_back(CDNSSeedData("107.185.68.254", "107.185.68.254"));
+        vSeeds.push_back(CDNSSeedData("109.236.215.17", "109.236.215.17"));
+        vSeeds.push_back(CDNSSeedData("116.91.31.66", "116.91.31.66"));
+        vSeeds.push_back(CDNSSeedData("124.183.68.227", "124.183.68.227"));
+        vSeeds.push_back(CDNSSeedData("130.255.12.106", "130.255.12.106"));
+        vSeeds.push_back(CDNSSeedData("147.135.130.119", "147.135.130.119"));
+        vSeeds.push_back(CDNSSeedData("153.213.96.231", "153.213.96.231"));
+        vSeeds.push_back(CDNSSeedData("171.7.58.246", "171.7.58.246"));
+        vSeeds.push_back(CDNSSeedData("46.4.88.116", "46.4.88.116"));
+        vSeeds.push_back(CDNSSeedData("5.228.232.59", "5.228.232.59"));
+        vSeeds.push_back(CDNSSeedData("95.78.98.68", "95.78.98.68")); 
         
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
@@ -178,6 +189,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("107.22.138.243", "107.22.138.243"));
+        
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // lemanum test net start with T
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 196);
