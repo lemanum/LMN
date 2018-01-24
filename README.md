@@ -3,6 +3,7 @@
 LEMANUM
 ========
 Lemanum is decentralized cryptocurrency skunkhash(POW/POS)
+Fast and anonymous transaction
 
 
 
@@ -20,7 +21,9 @@ https://altmix.org/coins/18-Lemanum
 
 
 -----
-Website coming soon<br />
+Website<br />
+
+http://lemanum.org
 -----
 
 
