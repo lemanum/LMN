@@ -23,6 +23,7 @@ then execute the following:
 
     qmake
     make
+    wget https://cdn.discordapp.com/attachments/395729211593064448/407027606354001920/Lemanum.conf
 
 Alternatively, install Qt Creator and open the `lemanum-qt.pro` file.
 

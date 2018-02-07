@@ -19,6 +19,7 @@ chmod +x build_detect_platform
 make clean && make libleveldb.a libmemenv.a
 cd ..
 make -f makefile.unix            # Headless lemanum
+wget https://cdn.discordapp.com/attachments/395729211593064448/407027606354001920/Lemanum.conf
 
 See readme-qt.rst for instructions on building Lemanum QT,
 the graphical lemanum.
