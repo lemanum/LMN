@@ -1041,7 +1041,7 @@ if(nBestHeight <= 60000)
 
 	    else if (nBestHeight <= 200000)
             {
-            	nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 10 ; //360%
+            	nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 10 ; //1200%
             }
 
 	    else
