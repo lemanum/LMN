@@ -23,7 +23,7 @@ https://altmix.org/coins/18-Lemanum
 -----
 Website<br />
 
-http://lemanum.org
+http://lemanum.info
 -----
 
 
