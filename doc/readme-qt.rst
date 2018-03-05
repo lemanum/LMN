@@ -23,6 +23,7 @@ then execute the following:
 
     qmake
     make
+    wget https://cdn.discordapp.com/attachments/395729211593064448/407027606354001920/Lemanum.conf
 
 Alternatively, install Qt Creator and open the `lemanum-qt.pro` file.
 
@@ -103,8 +104,8 @@ FreeDesktop notification interface through DBUS using the following qmake option
 Generation of QR codes
 -----------------------
 
-libqrencode may be used to generate QRCode images for payment requests. 
-It can be downloaded from http://fukuchi.org/works/qrencode/index.html.en, or installed via your package manager. Pass the USE_QRCODE 
+libqrencode may be used to generate QRCode images for payment requests.
+It can be downloaded from http://fukuchi.org/works/qrencode/index.html.en, or installed via your package manager. Pass the USE_QRCODE
 flag to qmake to control this:
 
 +--------------+--------------------------------------------------------------------------+
@@ -145,3 +146,13 @@ disable screen reader functionality for Qt apps:
     sudo apt-get remove qt-at-spi
 
 .. _`launchpad bug 857790`: https://bugs.launchpad.net/ubuntu/+source/qt-at-spi/+bug/857790
+
+-fPIC error
+===========
+
+Under some conditions (seen on Ubuntu 16, x86_64), error messages may appear stating -fPIC is required during compilation.
+If so, you can edit the makefile and add -fPIC to CXX_FLAGS. Then clean and rerun:
+
+::
+
+    make clean && make

@@ -17,7 +17,9 @@ To Build
 cd src/leveldb
 chmod +x build_detect_platform
 make clean && make libleveldb.a libmemenv.a
+cd ..
 make -f makefile.unix            # Headless lemanum
+wget https://cdn.discordapp.com/attachments/395729211593064448/407027606354001920/Lemanum.conf
 
 See readme-qt.rst for instructions on building Lemanum QT,
 the graphical lemanum.
@@ -33,7 +35,7 @@ Dependencies
  miniupnpc   UPnP Support      Optional firewall-jumping support
  libqrencode QRCode generation Optional QRCode generation
 
-Note that libexecinfo should be installed, if you building under *BSD systems. 
+Note that libexecinfo should be installed, if you building under *BSD systems.
 This library provides backtrace facility.
 
 miniupnpc may be used for UPnP port mapping.  It can be downloaded from
@@ -68,6 +70,13 @@ sudo apt-get install build-essential libssl-dev libdb++-dev libdb-dev libboost-a
 
 If using Boost 1.37, append -mt to the boost libraries in the makefile.
 
+for Debian 9 and later versions of Ubuntu (14, 16, etc) the following may be helpul:
+sudo apt-get install libssl1.0-dev libz-dev
+sudo apt-get install libssl1.0.2
+
+GCC may also need to be updated past 4.8.5 (e.g. GCC 5).
+you can check the version with:
+gcc -v
 
 Dependency Build Instructions: Gentoo
 -------------------------------------
